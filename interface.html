@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal da Zeladoria - QR Code</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212; /* Fundo escuro */
+      color: #e0e0e0; /* Texto claro */
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #1e1e1e; /* Fundo do card */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-size: 1.8em;
+      color: #00bcd4; /* Azul-turquesa */
+    }
+    .qr-info {
+      margin-bottom: 20px;
+    }
+    .qr-info label {
+      font-weight: bold;
+    }
+    .qr-info p {
+      background-color: #333333;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+    .qr-image {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .qr-image img {
+      width: 150px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Portal da Zeladoria - QR Code</h1>
+      <p>Informações do Poste Capturadas</p>
+    </div>
+    <div class="qr-info">
+      <label>Localização:</label>
+      <p id="location">Rua das Flores, 123</p>
+
+      <label>Estado da Iluminação:</label>
+      <p id="lighting-status">Acesa</p>
+
+      <label>Outros Dados:</label>
+      <p id="other-data">Poste ID #001</p>
+    </div>
+    <div class="qr-image">
+      <h2>QR Code do Poste:</h2>
+      <img src="qr_code_poste.png" alt="QR Code">
+    </div>
+  </div>
+</body>
+</html>
